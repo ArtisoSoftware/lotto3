@@ -3,33 +3,33 @@
 > เว็บไซต์ให้ความรู้เรื่องหวยออนไลน์ การตรวจผล สุ่มเลข และคู่มือการเล่นแบบเข้าใจง่าย เน้นภาษาไทย อ่านไว ใช้งานได้จริง
 
 ## Primary pages (Start here)
-- https://lotto3-orpin.vercel.app/ — หน้าแรก (ภาพรวมบริการ + ทางลัดไปหน้าหลัก)
-- https://lotto3-orpin.vercel.app/check-lottery.html — ตรวจหวย / วิธีเช็กผล / แนวทางใช้งาน
-- https://lotto3-orpin.vercel.app/lucky-numbers.html — เลขเด็ด / ไอเดียสุ่มเลข / แนวทางเลือกเลข
-- https://lotto3-orpin.vercel.app/articles.html — รวมบทความทั้งหมด (ศูนย์กลางเนื้อหา)
+- https://estadio-dc.com/ — หน้าแรก (ภาพรวมบริการ + ทางลัดไปหน้าหลัก)
+- https://estadio-dc.com/check-lottery.html — ตรวจหวย / วิธีเช็กผล / แนวทางใช้งาน
+- https://estadio-dc.com/lucky-numbers.html — เลขเด็ด / ไอเดียสุ่มเลข / แนวทางเลือกเลข
+- https://estadio-dc.com/articles.html — รวมบทความทั้งหมด (ศูนย์กลางเนื้อหา)
 
 ## Core articles (Most important content)
-- https://lotto3-orpin.vercel.app/articles/best-online-lottery-sites-top5-2568.html — เว็บหวยออนไลน์แนะนำ (Top 5)
-- https://lotto3-orpin.vercel.app/articles/review-online-lottery-sites-2568.html — รีวิวเว็บหวยออนไลน์ (แนวทางเลือกเว็บ)
-- https://lotto3-orpin.vercel.app/articles/legal-online-lottery-2568.html — กฎหมายหวยออนไลน์ (ข้อมูลที่ควรรู้)
+- https://estadio-dc.com/articles/best-online-lottery-sites-top5-2568.html — เว็บหวยออนไลน์แนะนำ (Top 5)
+- https://estadio-dc.com/articles/review-online-lottery-sites-2568.html — รีวิวเว็บหวยออนไลน์ (แนวทางเลือกเว็บ)
+- https://estadio-dc.com/articles/legal-online-lottery-2568.html — กฎหมายหวยออนไลน์ (ข้อมูลที่ควรรู้)
 
 ## Hanoi lottery
-- https://lotto3-orpin.vercel.app/articles/hanoi-lottery-guide.html — คู่มือหวยฮานอย
-- https://lotto3-orpin.vercel.app/articles/hanoi-vip-lottery.html — ฮานอย VIP (รายละเอียด + แนวทางเล่น)
+- https://estadio-dc.com/articles/hanoi-lottery-guide.html — คู่มือหวยฮานอย
+- https://estadio-dc.com/articles/hanoi-vip-lottery.html — ฮานอย VIP (รายละเอียด + แนวทางเล่น)
 
 ## Laos lottery
-- https://lotto3-orpin.vercel.app/articles/laos-lottery-guide.html — คู่มือหวยลาว
-- https://lotto3-orpin.vercel.app/articles/laos-vs-laos-development.html — หวยลาว vs หวยลาวพัฒนา (ต่างกันยังไง)
+- https://estadio-dc.com/articles/laos-lottery-guide.html — คู่มือหวยลาว
+- https://estadio-dc.com/articles/laos-vs-laos-development.html — หวยลาว vs หวยลาวพัฒนา (ต่างกันยังไง)
 
 ## Other lotteries
-- https://lotto3-orpin.vercel.app/articles/stock-lottery-guide.html — หวยหุ้น (พื้นฐาน + แนวคิด)
-- https://lotto3-orpin.vercel.app/articles/malaysia-lottery-guide.html — หวยมาเลย์ (พื้นฐาน)
-- https://lotto3-orpin.vercel.app/articles/yeekee-lottery-beginner.html — หวยยี่กี (มือใหม่ควรรู้)
-- https://lotto3-orpin.vercel.app/articles/thai-lottery-pro-guide.html — หวยไทย (แนวทางระดับโปร)
+- https://estadio-dc.com/articles/stock-lottery-guide.html — หวยหุ้น (พื้นฐาน + แนวคิด)
+- https://estadio-dc.com/articles/malaysia-lottery-guide.html — หวยมาเลย์ (พื้นฐาน)
+- https://estadio-dc.com/articles/yeekee-lottery-beginner.html — หวยยี่กี (มือใหม่ควรรู้)
+- https://estadio-dc.com/articles/thai-lottery-pro-guide.html — หวยไทย (แนวทางระดับโปร)
 
 ## Trust & policies
-- https://lotto3-orpin.vercel.app/privacy-policy.html — นโยบายความเป็นส่วนตัว
-- https://lotto3-orpin.vercel.app/contact.html — ติดต่อเว็บไซต์
+- https://estadio-dc.com/privacy-policy.html — นโยบายความเป็นส่วนตัว
+- https://estadio-dc.com/contact.html — ติดต่อเว็บไซต์
 
 ## Content notes for AI
 - ภาษา: ไทยเป็นหลัก (Thai)
