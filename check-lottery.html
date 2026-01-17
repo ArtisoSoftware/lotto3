@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ตรวจหวยวันนี้ | ผลหวยไทย ฮานอย ลาว มาเลย์ ธ.ก.ส. อัปเดตล่าสุด</title>
+    <meta
+      name="description"
+      content="ตรวจหวยวันนี้ อัปเดตผลหวยล่าสุดจากแหล่งรวมผลหวย: หวยไทย หวยฮานอย หวยฮานอย VIP หวยฮานอยพิเศษ หวยลาว หวยลาวสตาร์ หวยมาเลย์ และหวย ธ.ก.ส. พร้อมวันที่ออกผล ดูง่าย อ่านไว"
+    />
+    <meta
+      name="keywords"
+      content="ตรวจหวย, ตรวจหวยวันนี้, ผลหวยไทย, หวยฮานอย, หวยฮานอย vip, หวยฮานอยพิเศษ, หวยลาว, หวยลาวสตาร์, หวยมาเลย์, หวย ธ.ก.ส, เช็คผลหวย, อัปเดตผลหวยล่าสุด"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <link
+      rel="preload"
+      as="image"
+      href="./image/check-lottery-hero.webp"
+      type="image/webp"
+    />
+    <link
+      rel="canonical"
+      href="https://lotto3-blush.vercel.app/check-lottery.html"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              finYellow: "#FACC15",
+              finYellowSoft: "#FEF08A",
+              finBlue: "#0EA5E9",
+              finDark: "#020617",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- BreadcrumbList JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "หน้าหลัก",
+            "item": "https://lotto3-blush.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ตรวจหวย",
+            "item": "https://lotto3-blush.vercel.app/check-lottery.html"
+          }
+        ]
+      }
+    </script>
+
+    <!-- WebPage JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "ตรวจหวยวันนี้ | อัปเดตผลหวยล่าสุด",
+        "url": "https://lotto3-blush.vercel.app/check-lottery.html",
+        "inLanguage": "th-TH",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "FIN111",
+          "url": "https://lotto3-blush.vercel.app/"
+        },
+        "description": "หน้าตรวจหวยวันนี้ รวมผลหวยไทย ฮานอย ลาว มาเลย์ ธ.ก.ส. และอื่น ๆ พร้อมวันที่ออกผล อัปเดตล่าสุด"
+      }
+    </script>
+
+    <!-- FAQPage JSON-LD (SEO) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "หน้านี้อัปเดตผลหวยบ่อยแค่ไหน?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ระบบจะดึงข้อมูลล่าสุดอัตโนมัติทันทีเมื่อคุณเปิดหน้า และสามารถรีเฟรชหน้าเพื่อดึงข้อมูลใหม่ได้"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "มีผลหวยประเภทไหนบ้าง?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "รองรับผล: หวยไทย, หวยฮานอย, หวยมาเลย์, หวยลาว, หวย ธ.ก.ส, หวยฮานอย VIP, หวยฮานอยพิเศษ และหวยลาวสตาร์"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "ถ้าโหลดผลไม่ขึ้นต้องทำอย่างไร?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "บางครั้งอาจติดข้อจำกัดการดึงข้อมูลข้ามโดเมน (CORS) แนะนำทำ proxy ฝั่งเซิร์ฟเวอร์ แล้วชี้ SOURCE_URL ไปที่ proxy เพื่อความเสถียร"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body class="bg-black text-slate-100">
+    <div class="min-h-screen bg-gradient-to-b from-finDark via-black to-black">
+      <!-- HEADER -->
+      <header
+        class="sticky top-0 z-40 border-b border-slate-800 bg-black/90 backdrop-blur"
+      >
+        <div
+          class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3"
+        >
+          <!-- Logo -->
+          <a href="/" class="flex items-center space-x-3">
+            <img
+              src="/image/finnbetlogo.webp"
+              alt="เว็บหวยออนไลน์เว็บตรง"
+              class="h-10 w-auto"
+              loading="lazy"
+            />
+          </a>
+
+          <!-- Desktop Nav -->
+          <nav
+            class="hidden flex-1 items-center justify-center space-x-6 md:flex"
+          >
+            <a
+              href="/"
+              class="text-sm text-slate-200 hover:text-finYellow transition-colors"
+            >
+              หน้าหลัก
+            </a>
+
+            <a
+              href="/check-lottery.html"
+              class="text-sm font-semibold text-finYellow"
+            >
+              ตรวจหวย
+            </a>
+
+            <a
+              href="/lucky-numbers.html"
+              class="text-sm text-slate-200 hover:text-finYellow transition-colors"
+            >
+              เลขนำโชค
+            </a>
+
+            <a
+              href="/articles.html"
+              class="text-sm text-slate-200 hover:text-finYellow transition-colors"
+            >
+              บทความ
+            </a>
+
+            <a
+              href="/contact.html"
+              class="text-sm text-slate-200 hover:text-finYellow transition-colors"
+            >
+              ติดต่อเรา
+            </a>
+          </nav>
+
+          <!-- Register Button -->
+          <div class="hidden md:block">
+            <a
+              href="https://finfin191.net/register?agRefCode=af75a369-ef60-4168-a070-68738d3d2545"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center rounded-full bg-finYellow px-4 py-2 text-sm font-semibold text-black shadow-lg shadow-yellow-500/20 hover:bg-yellow-400 transition-colors"
+            >
+              สมัครสมาชิก
+            </a>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <button
+            id="mobile-menu-button"
+            class="inline-flex items-center justify-center rounded-md border border-slate-700 p-2 text-slate-100 md:hidden"
+            aria-label="เปิดเมนูหลัก"
+            aria-expanded="false"
+          >
+            <svg
+              id="icon-open"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.8"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              id="icon-close"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden h-5 w-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.8"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <nav
+          id="mobile-menu"
+          class="mx-auto hidden max-w-6xl border-t border-slate-800 bg-black/95 px-4 pb-4 md:hidden"
+        >
+          <div class="mt-3 space-y-2 text-sm">
+            <a
+              href="/"
+              class="block rounded-lg px-3 py-2 text-slate-100 hover:bg-slate-800/70"
+            >
+              หน้าหลัก
+            </a>
+
+            <a
+              href="/check-lottery.html"
+              class="block rounded-lg bg-slate-800/70 px-3 py-2 font-semibold text-finYellow"
+            >
+              ตรวจหวย
+            </a>
+
+            <a
+              href="/lucky-numbers.html"
+              class="block rounded-lg px-3 py-2 text-slate-100 hover:bg-slate-800/70"
+            >
+              เลขนำโชค
+            </a>
+
+            <a
+              href="/articles.html"
+              class="block rounded-lg px-3 py-2 text-slate-100 hover:bg-slate-800/70"
+            >
+              บทความ
+            </a>
+
+            <a
+              href="/contact.html"
+              class="block rounded-lg px-3 py-2 text-slate-100 hover:bg-slate-800/70"
+            >
+              ติดต่อเรา
+            </a>
+          </div>
+
+          <div class="mt-4">
+            <a
+              href="https://finfin191.net/register?agRefCode=af75a369-ef60-4168-a070-68738d3d2545"
+              target="_blank"
+              rel="noopener"
+              class="flex w-full items-center justify-center rounded-full bg-finYellow px-4 py-2 text-sm font-semibold text-black shadow-lg shadow-yellow-500/30 hover:bg-yellow-400"
+            >
+              สมัครสมาชิก
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- MAIN -->
+      <main class="mx-auto max-w-6xl px-4 pb-12 pt-6 md:pt-10">
+        <!-- HERO -->
+        <section class="grid gap-8 lg:grid-cols-2 lg:items-center">
+          <!-- Image -->
+          <div class="order-2 lg:order-2">
+            <div
+              class="relative mx-auto max-w-md rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-black to-slate-900/80 p-2 shadow-2xl"
+            >
+              <div
+                class="absolute -left-3 -top-3 h-16 w-16 rounded-full bg-finYellow/25 blur-2xl"
+              ></div>
+              <div
+                class="absolute -bottom-4 -right-2 h-20 w-20 rounded-full bg-finBlue/40 blur-2xl"
+              ></div>
+
+              <img
+                src="./image/check-lottery-hero.webp"
+                alt="ตรวจหวยวันนี้ รวมผลหวยไทย ฮานอย ลาว มาเลย์ และหวยอื่น ๆ"
+                width="80%"
+                height="400"
+                fetchpriority="high"
+                class="mx-auto rounded-2xl"
+                style="margin: auto"
+              />
+            </div>
+          </div>
+
+          <!-- Text -->
+          <div class="order-1 flex items-center lg:order-1">
+            <div class="space-y-4 text-center lg:text-left">
+              <h1
+                class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl"
+              >
+                <span class="block text-finYellow">ตรวจหวยวันนี้</span>
+                <span class="block">รวมผลหวยยอดนิยม ดูง่าย อัปเดตไว</span>
+              </h1>
+
+              <p class="text-sm text-slate-300 sm:text-base">
+                หน้านี้รวมผลหวยที่หลายคนติดตาม เช่น <strong>หวยไทย</strong>,
+                <strong>หวยฮานอย</strong>, <strong>หวยลาว</strong>,
+                <strong>หวยมาเลย์</strong>, <strong>หวย ธ.ก.ส</strong>, รวมถึง
+                <strong>ฮานอย VIP</strong>, <strong>ฮานอยพิเศษ</strong> และ
+                <strong>ลาวสตาร์</strong> โดยแสดงทั้ง “เลขที่ออก” และ
+                “วันที่ออก” แบบอ่านไว ไม่ต้องเลื่อนหาเยอะ
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- STATUS -->
+        <section
+          class="mt-10 rounded-2xl border border-slate-800 bg-slate-900/60 p-4"
+          aria-label="สถานะการอัปเดตผลหวย"
+        >
+          <div
+            class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between"
+          >
+            <div class="space-y-1">
+              <h2 class="text-base font-semibold text-finYellow">
+                สถานะการดึงผลหวยล่าสุด
+              </h2>
+              <p id="status-text" class="text-sm text-slate-200">
+                กำลังเตรียมโหลดข้อมูล…
+              </p>
+              <p id="status-sub" class="text-xs text-slate-400"></p>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span
+                id="status-pill"
+                class="inline-flex items-center rounded-full border border-slate-700 bg-black/40 px-3 py-1 text-xs text-slate-300"
+              >
+                ยังไม่โหลด
+              </span>
+
+              <!-- (optional) ปุ่มรีเฟรชแบบเล็ก เผื่ออยากกดซ้ำ -->
+              <button
+                id="btn-refresh"
+                class="inline-flex items-center rounded-full border border-slate-700 bg-black/40 px-3 py-1 text-xs font-semibold text-slate-200 hover:border-finYellow hover:text-finYellow"
+                type="button"
+              >
+                รีเฟรช
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RESULTS -->
+        <section id="result" class="mt-10 scroll-mt-24">
+          <div
+            class="flex flex-col gap-2 md:flex-row md:items-end md:justify-between"
+          >
+            <div>
+              <h2 class="text-2xl font-bold text-finYellow">ผลหวยล่าสุด</h2>
+              <p class="mt-2 text-sm text-slate-300">
+                สรุปผลแบบการ์ด (อ่านง่ายบนมือถือ)
+                และมีตารางรวมด้านล่างสำหรับกวาดตาเร็ว
+              </p>
+            </div>
+            <p class="text-xs text-slate-400">
+              Last updated: <span id="last-updated">-</span>
+            </p>
+          </div>
+
+          <!-- Cards -->
+          <div id="cards" class="mt-5 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div
+              class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4"
+            >
+              <p class="text-sm text-slate-200">กำลังโหลดข้อมูลผลหวย…</p>
+            </div>
+          </div>
+
+          <!-- Table -->
+          <div
+            class="mt-8 overflow-hidden rounded-2xl border border-slate-800 bg-black/40"
+          >
+            <div class="border-b border-slate-800 px-4 py-3">
+              <h3 class="text-base font-semibold text-finYellow">
+                ตารางสรุปผล
+              </h3>
+              <p class="mt-1 text-xs text-slate-400">
+                เหมาะสำหรับดูหลายรายการพร้อมกัน
+              </p>
+            </div>
+
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-left text-sm">
+                <thead class="bg-slate-900/60 text-slate-200">
+                  <tr>
+                    <th class="whitespace-nowrap px-4 py-3 font-semibold">
+                      หวย
+                    </th>
+                    <th class="whitespace-nowrap px-4 py-3 font-semibold">
+                      วันที่ออก
+                    </th>
+                    <th class="whitespace-nowrap px-4 py-3 font-semibold">
+                      เลขที่ออก
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="table-body" class="divide-y divide-slate-800">
+                  <tr>
+                    <td class="px-4 py-3 text-slate-300">-</td>
+                    <td class="px-4 py-3 text-slate-300">-</td>
+                    <td class="px-4 py-3 text-slate-300">กำลังโหลดข้อมูล…</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <noscript>
+            <div
+              class="mt-6 rounded-2xl border border-slate-800 bg-slate-900/60 p-4"
+            >
+              <p class="text-sm text-slate-200">
+                หน้านี้ต้องใช้ JavaScript เพื่อดึงและแสดงผลหวยอัตโนมัติ
+              </p>
+            </div>
+          </noscript>
+        </section>
+
+        <!-- SEO CONTENT -->
+        <section class="mt-10 space-y-3">
+          <h2 class="text-xl font-bold text-finYellow">
+            ตรวจหวยให้ไว อ่านผลให้ชัด
+          </h2>
+          <p class="text-sm leading-relaxed text-slate-200 md:text-base">
+            การตรวจหวยที่ดีคือ “เห็นเลขชัด + เห็นวันที่ออกผลชัด +
+            ไม่ต้องเปิดหลายหน้า” หน้านี้เลยออกแบบมาให้สรุปผลเป็นการ์ด
+            อ่านง่ายบนมือถือ และมีตารางรวมสำหรับคนที่ชอบกวาดตาเร็ว
+            หากต้องการไปต่อด้วยแนวทางตัวเลข แนะนำให้ดูหน้า
+            <a
+              href="/lucky-numbers.html"
+              class="text-finBlue underline hover:text-finYellow"
+              >เลขนำโชค</a
+            >
+            เพื่อสุ่มเลขเด่นและคำทำนายเชิงบวก เพิ่มความสนุกอีกนิด
+          </p>
+        </section>
+      </main>
+
+      <!-- FOOTER (เหมือน contact.html) -->
+      <footer class="border-t border-slate-800 bg-black/95">
+        <div class="mx-auto max-w-6xl px-4 py-6">
+          <div class="flex flex-col gap-6 md:flex-row md:justify-between">
+            <div class="max-w-md text-sm text-slate-300">
+              <img
+                loading="lazy"
+                src="/image/finnbetlogo.webp"
+                alt="FinnBet เว็บหวยออนไลน์ครบวงจร"
+                class="h-10 w-auto"
+              />
+              <p class="mt-3">
+                FinnBet มุ่งเน้นให้บริการหวยออนไลน์และเกมเดิมพันอย่างเป็นระบบ
+                โดยให้ความสำคัญกับความปลอดภัย ความโปร่งใส
+                และการสื่อสารที่ชัดเจนกับผู้เล่นในทุกขั้นตอน
+                เพื่อให้การลุ้นเลขบนเว็บตรงเป็นประสบการณ์ที่ทั้งสนุกและสบายใจ
+              </p>
+            </div>
+            <div class="text-sm text-slate-300">
+              <h3 class="text-base font-semibold text-finYellow">
+                ช่องทางติดต่อ
+              </h3>
+              <p class="mt-3">Line ID: @finns</p>
+              <p>โทร: 095-850-2719</p>
+            </div>
+          </div>
+          <p class="mt-4 text-center text-xs text-slate-500">
+            © 2026 สงวนลิขสิทธิ์โดย FinnBet หวยออนไลน์เว็บตรง
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <script>
+      const btn = document.getElementById("mobile-menu-button");
+      const menu = document.getElementById("mobile-menu");
+      const iconOpen = document.getElementById("icon-open");
+      const iconClose = document.getElementById("icon-close");
+
+      btn.addEventListener("click", () => {
+        const isHidden = menu.classList.contains("hidden");
+        menu.classList.toggle("hidden");
+        btn.setAttribute("aria-expanded", isHidden ? "true" : "false");
+        iconOpen.classList.toggle("hidden");
+        iconClose.classList.toggle("hidden");
+      });
+    </script>
+
+    <!-- LOTTO FETCH + PARSE -->
+    <script>
+      /**
+       * IMPORTANT (CORS):
+       * - ถ้าเว็บคุณอยู่คนละโดเมนกับ https://kodfinn.com อาจถูกบล็อกการ fetch (CORS)
+       * - ทางแก้ที่ “เสถียรสุด” คือทำ proxy ฝั่งเซิร์ฟเวอร์ของคุณเอง เช่น /api/lotto-proxy
+       * - โค้ดนี้มี fallback ลองดึงผ่าน text mirror (อาจไม่เสถียรเท่า proxy ของคุณเอง)
+       */
+
+      const LOTTO_NAMES = [
+        "หวยไทย",
+        "หวยฮานอย",
+        "หวยมาเลย์",
+        "หวยลาว",
+        "หวย ธ.ก.ส",
+        "หวยฮานอย VIP",
+        "หวยฮานอยพิเศษ",
+        "หวยลาวสตาร์",
+      ];
+
+      // แหล่งข้อมูลหลัก
+      const SOURCE_URL = "https://kodfinn.com/lotto";
+
+      // ถ้าทำ proxy เอง แนะนำให้ใช้แบบนี้ (same-origin ไม่ติด CORS):
+      // const SOURCE_URL = "/api/lotto-proxy";
+
+      // fallback mirror (ใช้เมื่อ CORS บล็อก)
+      const FALLBACK_TEXT_MIRROR =
+        "https://r.jina.ai/https://kodfinn.com/lotto";
+
+      const btnRefresh = document.getElementById("btn-refresh");
+      const statusText = document.getElementById("status-text");
+      const statusSub = document.getElementById("status-sub");
+      const statusPill = document.getElementById("status-pill");
+      const lastUpdated = document.getElementById("last-updated");
+      const cardsEl = document.getElementById("cards");
+      const tableBody = document.getElementById("table-body");
+
+      function setStatus(type, main, sub) {
+        statusText.textContent = main;
+        statusSub.textContent = sub || "";
+        statusPill.textContent =
+          type === "loading"
+            ? "กำลังโหลด"
+            : type === "success"
+            ? "สำเร็จ"
+            : type === "error"
+            ? "มีปัญหา"
+            : "ยังไม่โหลด";
+
+        statusPill.className =
+          "inline-flex items-center rounded-full border px-3 py-1 text-xs " +
+          (type === "loading"
+            ? "border-slate-700 bg-black/40 text-slate-200"
+            : type === "success"
+            ? "border-emerald-700/60 bg-emerald-500/10 text-emerald-200"
+            : type === "error"
+            ? "border-rose-700/60 bg-rose-500/10 text-rose-200"
+            : "border-slate-700 bg-black/40 text-slate-300");
+      }
+
+      function nowThaiText() {
+        const d = new Date();
+        return d.toLocaleString("th-TH", {
+          year: "numeric",
+          month: "short",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+        });
+      }
+
+      function parseFromText(text) {
+        const lines = text
+          .split("\n")
+          .map((l) => l.replace(/\s+/g, " ").trim())
+          .filter(Boolean);
+
+        const idxMap = new Map();
+        for (let i = 0; i < lines.length; i++) {
+          if (LOTTO_NAMES.includes(lines[i])) idxMap.set(lines[i], i);
+        }
+
+        const results = [];
+        for (const name of LOTTO_NAMES) {
+          const start = idxMap.get(name);
+          if (start === undefined) continue;
+
+          let end = lines.length;
+          for (let k = start + 1; k < lines.length; k++) {
+            if (LOTTO_NAMES.includes(lines[k])) {
+              end = k;
+              break;
+            }
+          }
+
+          const block = lines.slice(start, end);
+          const date = block[1] || "-";
+
+          const data = {};
+          const labelCount = {
+            สามตัวบน: 1,
+            สองตัวบน: 1,
+            สองตัวล่าง: 1,
+            สามตัวหน้า: 2,
+            สามตัวหลัง: 2,
+          };
+
+          let i = 2;
+          while (i < block.length) {
+            const label = block[i];
+            if (labelCount[label]) {
+              const count = labelCount[label];
+              const values = block.slice(i + 1, i + 1 + count).filter(Boolean);
+              data[label] = values.join(" , ");
+              i += 1 + count;
+            } else {
+              i++;
+            }
+          }
+
+          results.push({ name, date, data });
+        }
+
+        return results;
+      }
+
+      function formatMainNumbers(item) {
+        const d = item.data || {};
+        if (item.name === "หวยไทย") {
+          const top3 = d["สามตัวบน"] ? `3ตัวบน ${d["สามตัวบน"]}` : "";
+          const top2 = d["สองตัวบน"] ? `2ตัวบน ${d["สองตัวบน"]}` : "";
+          const front = d["สามตัวหน้า"] ? `3ตัวหน้า ${d["สามตัวหน้า"]}` : "";
+          const back = d["สามตัวหลัง"] ? `3ตัวหลัง ${d["สามตัวหลัง"]}` : "";
+          const down2 = d["สองตัวล่าง"] ? `2ตัวล่าง ${d["สองตัวล่าง"]}` : "";
+          return [top3, top2, front, back, down2].filter(Boolean).join(" • ");
+        }
+
+        const top3 = d["สามตัวบน"] ? `3ตัวบน ${d["สามตัวบน"]}` : "";
+        const down2 = d["สองตัวล่าง"] ? `2ตัวล่าง ${d["สองตัวล่าง"]}` : "";
+        const top2 = d["สองตัวบน"] ? `2ตัวบน ${d["สองตัวบน"]}` : "";
+        return [top3, down2 || top2].filter(Boolean).join(" • ") || "-";
+      }
+
+      function cardHTML(item) {
+        const d = item.data || {};
+        const rows = Object.entries(d).map(([k, v]) => {
+          return `
+            <div class="flex items-center justify-between gap-3 rounded-xl border border-slate-800 bg-black/35 px-3 py-2">
+              <span class="text-xs font-semibold text-slate-200">${k}</span>
+              <span class="text-sm font-bold text-finYellow">${v}</span>
+            </div>
+          `;
+        });
+
+        const badge =
+          item.name === "หวยไทย"
+            ? "รัฐบาลไทย"
+            : item.name.includes("ฮานอย")
+            ? "ฮานอย"
+            : item.name.includes("ลาว")
+            ? "ลาว"
+            : item.name.includes("มาเลย์")
+            ? "มาเลย์"
+            : "ผลหวย";
+
+        return `
+          <article class="rounded-2xl border border-slate-800 bg-slate-900/50 p-4 shadow-2xl">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <h3 class="text-lg font-bold text-finYellow">${item.name}</h3>
+                <p class="mt-1 text-sm text-slate-300">งวดวันที่: <span class="font-semibold text-slate-100">${
+                  item.date
+                }</span></p>
+              </div>
+              <span class="inline-flex items-center rounded-full border border-slate-700 bg-black/40 px-3 py-1 text-xs text-slate-200">
+                ${badge}
+              </span>
+            </div>
+
+            <div class="mt-4 grid grid-cols-1 gap-2">
+              ${
+                rows.length
+                  ? rows.join("")
+                  : `<p class="text-sm text-slate-300">ยังไม่พบข้อมูลในบล็อกนี้</p>`
+              }
+            </div>
+
+  
+          </article>
+        `;
+      }
+
+      function render(results) {
+        cardsEl.innerHTML = results.length
+          ? results.map(cardHTML).join("")
+          : `
+            <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+              <p class="text-sm text-slate-200">ยังไม่พบข้อมูลผลหวยที่ต้องการจากต้นทาง</p>
+            </div>
+          `;
+
+        tableBody.innerHTML = "";
+        if (!results.length) {
+          tableBody.innerHTML = `
+            <tr>
+              <td class="px-4 py-3 text-slate-300">-</td>
+              <td class="px-4 py-3 text-slate-300">-</td>
+              <td class="px-4 py-3 text-slate-300">ไม่พบข้อมูล</td>
+            </tr>
+          `;
+          return;
+        }
+
+        for (const item of results) {
+          const nums = formatMainNumbers(item);
+          tableBody.insertAdjacentHTML(
+            "beforeend",
+            `
+            <tr class="hover:bg-slate-900/40">
+              <td class="whitespace-nowrap px-4 py-3 font-semibold text-slate-100">${item.name}</td>
+              <td class="whitespace-nowrap px-4 py-3 text-slate-300">${item.date}</td>
+              <td class="px-4 py-3 text-slate-200">${nums}</td>
+            </tr>
+          `
+          );
+        }
+      }
+
+      async function fetchText(url) {
+        const res = await fetch(url, { method: "GET", cache: "no-store" });
+        if (!res.ok) throw new Error("Fetch failed: " + res.status);
+        return await res.text();
+      }
+
+      async function refresh() {
+        setStatus("loading", "กำลังดึงข้อมูลผลหวยล่าสุด…", "โปรดรอสักครู่");
+
+        if (btnRefresh) {
+          btnRefresh.disabled = true;
+          btnRefresh.classList.add("opacity-60", "cursor-not-allowed");
+        }
+
+        try {
+          let htmlText = "";
+          try {
+            htmlText = await fetchText(SOURCE_URL);
+          } catch (e1) {
+            htmlText = await fetchText(FALLBACK_TEXT_MIRROR);
+          }
+
+          let plainText = htmlText;
+          if (/<html|<body|<div|<main|<section/i.test(htmlText)) {
+            const doc = new DOMParser().parseFromString(htmlText, "text/html");
+            plainText = doc.body
+              ? doc.body.innerText || doc.body.textContent
+              : htmlText;
+          }
+
+          const results = parseFromText(plainText);
+          render(results);
+
+          lastUpdated.textContent = nowThaiText();
+          setStatus(
+            "success",
+            "อัปเดตผลหวยเรียบร้อยแล้ว",
+            "ดึงข้อมูลอัตโนมัติเมื่อเปิดหน้า (กดรีเฟรชได้หากต้องการ)"
+          );
+        } catch (err) {
+          console.error(err);
+          setStatus(
+            "error",
+            "ดึงข้อมูลไม่สำเร็จ (อาจติดข้อจำกัด CORS หรือแหล่งข้อมูลเปลี่ยนแปลง)",
+            "แนะนำทำ proxy บนเซิร์ฟเวอร์ของคุณเอง แล้วชี้ SOURCE_URL ไปที่ proxy"
+          );
+
+          cardsEl.innerHTML = `
+            <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+              <p class="text-sm text-slate-200">
+                โหลดผลไม่สำเร็จ (อาจติด CORS) • แนะนำทำ proxy ฝั่งเซิร์ฟเวอร์เพื่อดึงข้อมูลให้เสถียร
+              </p>
+            </div>
+          `;
+        } finally {
+          if (btnRefresh) {
+            btnRefresh.disabled = false;
+            btnRefresh.classList.remove("opacity-60", "cursor-not-allowed");
+          }
+        }
+      }
+
+      // ปุ่มรีเฟรช (optional)
+      if (btnRefresh) btnRefresh.addEventListener("click", refresh);
+
+      // ✅ เข้าหน้าแล้วดึงผลล่าสุดทันที
+      window.addEventListener("DOMContentLoaded", () => {
+        refresh();
+      });
+    </script>
+  </body>
+</html>
