@@ -99,14 +99,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
-        /* คงเดิม */
+        theme: {
+          extend: {
+            colors: {
+              finYellow: "#FACC15",
+              finYellowSoft: "#FEF08A",
+              finBlue: "#0EA5E9",
+              finDark: "#020617",
+            },
+          },
+        },
       };
     </script>
 
-    <!-- BreadcrumbList JSON-LD (คงเดิม แต่ปรับ item) -->
+    <!-- BreadcrumbList JSON-LD -->
     <script type="application/ld+json">
       {
-        /* คงเดิม */
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "หน้าหลัก",
+            "item": "https://lotto3-orpin.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ตรวจหวย",
+            "item": "https://lotto3-orpin.vercel.app/check-lottery.html"
+          }
+        ]
       }
     </script>
 
