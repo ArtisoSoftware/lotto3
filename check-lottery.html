@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
@@ -23,7 +23,7 @@
     />
     <link
       rel="canonical"
-      href="https://lotto3-blush.vercel.app/check-lottery.html"
+      href="https://lotto3-orpin.vercel.app/check-lottery.html"
     />
 
     <!-- Tailwind CSS CDN -->
@@ -53,13 +53,13 @@
             "@type": "ListItem",
             "position": 1,
             "name": "หน้าหลัก",
-            "item": "https://lotto3-blush.vercel.app/"
+            "item": "https://lotto3-orpin.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "ตรวจหวย",
-            "item": "https://lotto3-blush.vercel.app/check-lottery.html"
+            "item": "https://lotto3-orpin.vercel.app/check-lottery.html"
           }
         ]
       }
@@ -71,12 +71,12 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "ตรวจหวยวันนี้ | อัปเดตผลหวยล่าสุด",
-        "url": "https://lotto3-blush.vercel.app/check-lottery.html",
+        "url": "https://lotto3-orpin.vercel.app/check-lottery.html",
         "inLanguage": "th-TH",
         "isPartOf": {
           "@type": "WebSite",
           "name": "FIN111",
-          "url": "https://lotto3-blush.vercel.app/"
+          "url": "https://lotto3-orpin.vercel.app/"
         },
         "description": "หน้าตรวจหวยวันนี้ รวมผลหวยไทย ฮานอย ลาว มาเลย์ ธ.ก.ส. และอื่น ๆ พร้อมวันที่ออกผล อัปเดตล่าสุด"
       }
@@ -561,20 +561,20 @@
           type === "loading"
             ? "กำลังโหลด"
             : type === "success"
-            ? "สำเร็จ"
-            : type === "error"
-            ? "มีปัญหา"
-            : "ยังไม่โหลด";
+              ? "สำเร็จ"
+              : type === "error"
+                ? "มีปัญหา"
+                : "ยังไม่โหลด";
 
         statusPill.className =
           "inline-flex items-center rounded-full border px-3 py-1 text-xs " +
           (type === "loading"
             ? "border-slate-700 bg-black/40 text-slate-200"
             : type === "success"
-            ? "border-emerald-700/60 bg-emerald-500/10 text-emerald-200"
-            : type === "error"
-            ? "border-rose-700/60 bg-rose-500/10 text-rose-200"
-            : "border-slate-700 bg-black/40 text-slate-300");
+              ? "border-emerald-700/60 bg-emerald-500/10 text-emerald-200"
+              : type === "error"
+                ? "border-rose-700/60 bg-rose-500/10 text-rose-200"
+                : "border-slate-700 bg-black/40 text-slate-300");
       }
 
       function nowThaiText() {
@@ -675,12 +675,12 @@
           item.name === "หวยไทย"
             ? "รัฐบาลไทย"
             : item.name.includes("ฮานอย")
-            ? "ฮานอย"
-            : item.name.includes("ลาว")
-            ? "ลาว"
-            : item.name.includes("มาเลย์")
-            ? "มาเลย์"
-            : "ผลหวย";
+              ? "ฮานอย"
+              : item.name.includes("ลาว")
+                ? "ลาว"
+                : item.name.includes("มาเลย์")
+                  ? "มาเลย์"
+                  : "ผลหวย";
 
         return `
           <article class="rounded-2xl border border-slate-800 bg-slate-900/50 p-4 shadow-2xl">
@@ -740,7 +740,7 @@
               <td class="whitespace-nowrap px-4 py-3 text-slate-300">${item.date}</td>
               <td class="px-4 py-3 text-slate-200">${nums}</td>
             </tr>
-          `
+          `,
           );
         }
       }
@@ -782,14 +782,14 @@
           setStatus(
             "success",
             "อัปเดตผลหวยเรียบร้อยแล้ว",
-            "ดึงข้อมูลอัตโนมัติเมื่อเปิดหน้า (กดรีเฟรชได้หากต้องการ)"
+            "ดึงข้อมูลอัตโนมัติเมื่อเปิดหน้า (กดรีเฟรชได้หากต้องการ)",
           );
         } catch (err) {
           console.error(err);
           setStatus(
             "error",
             "ดึงข้อมูลไม่สำเร็จ (อาจติดข้อจำกัด CORS หรือแหล่งข้อมูลเปลี่ยนแปลง)",
-            "แนะนำทำ proxy บนเซิร์ฟเวอร์ของคุณเอง แล้วชี้ SOURCE_URL ไปที่ proxy"
+            "แนะนำทำ proxy บนเซิร์ฟเวอร์ของคุณเอง แล้วชี้ SOURCE_URL ไปที่ proxy",
           );
 
           cardsEl.innerHTML = `

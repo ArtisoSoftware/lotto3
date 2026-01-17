@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lotto3-blush.vercel.app/sitemap.xml
+Sitemap: https://lotto3-orpin.vercel.app/sitemap.xml
