@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://estadio-dc.com/sitemap.xml
+Sitemap: https://www.estadio-dc.com/sitemap.xml
